@@ -15,6 +15,8 @@ import classMemo from './page/classMemo'
 import TimeSplit from './page/timeSplit'
 import virtualList from './page/virtualList'
 import batchUpdate from './page/batchUpdate'
+import Hooks from './page/hooks'
+import Ahooks from './page/ahooks'
 
 import reportWebVitals from './reportWebVitals';
 
@@ -42,6 +44,8 @@ ReactDOM.render(
             <Route path="/timeSplit" exact component={TimeSplit}></Route>
             <Route path="/virtualList" exact component={virtualList}></Route>
             <Route path="/batchUpdate" exact component={batchUpdate}></Route>
+            <Route path="/hooks" exact component={Hooks}></Route>
+            <Route path="/ahooks" exact component={Ahooks}></Route>
             
           </div>
         </div>

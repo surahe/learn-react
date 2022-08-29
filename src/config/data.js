@@ -70,6 +70,20 @@ let data = [
     from: '深入 react 细节之 - batchUpdate',
     url: 'https://zhuanlan.zhihu.com/p/78516581',
     desc: '同步的多次 setState 会被 batch 为一次更新。在一个异步的事件循环里面多次 setState，react 不会 batch。使用 ReactDOM.unstable_batchedUpdates 来强制 batch'
+  }, {
+    name: 'hooks',
+    date: '2022-08-26 16:24:00',
+    title: 'hook 集合',
+    from: '',
+    url: '',
+    desc: '各种 hook 集合',
+  }, {
+    name: 'ahooks',
+    date: '2022-08-26 11:52:06',
+    title: 'ahooks demo',
+    from: 'ahooks官网',
+    url: 'https://ahooks.js.org/zh-CN',
+    desc: '一套高质量可靠的 React Hooks 库',
   }
 ]
 
