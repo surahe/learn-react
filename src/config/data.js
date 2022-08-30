@@ -84,7 +84,14 @@ let data = [
     from: 'ahooks官网',
     url: 'https://ahooks.js.org/zh-CN',
     desc: '一套高质量可靠的 React Hooks 库',
-  }
+  }, {
+    name: 'promise-pending',
+    date: '2022-08-30 10:57:06',
+    title: 'Promise内存泄漏',
+    from: 'Promise永久Pending状态造成内存泄漏',
+    url: 'https://juejin.cn/post/7120079225926713374',
+    desc: '若promise一直保持pending状态 ，将会在内存中保存相应的上下文，无法释放，这可能导致内存泄漏 。'
+  },
 ]
 
 export default data

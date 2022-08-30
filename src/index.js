@@ -17,6 +17,7 @@ import virtualList from './page/virtualList'
 import batchUpdate from './page/batchUpdate'
 import Hooks from './page/hooks'
 import Ahooks from './page/ahooks'
+import PromisePending from './page/promisePending';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -46,7 +47,7 @@ ReactDOM.render(
             <Route path="/batchUpdate" exact component={batchUpdate}></Route>
             <Route path="/hooks" exact component={Hooks}></Route>
             <Route path="/ahooks" exact component={Ahooks}></Route>
-            
+            <Route path="/promise-pending" exact component={PromisePending}></Route>
           </div>
         </div>
       </div>
