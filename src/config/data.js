@@ -91,6 +91,13 @@ let data = [
     from: 'Promise永久Pending状态造成内存泄漏',
     url: 'https://juejin.cn/post/7120079225926713374',
     desc: '若promise一直保持pending状态 ，将会在内存中保存相应的上下文，无法释放，这可能导致内存泄漏 。'
+  }, {
+    name: 'component-types',
+    date: '2022-09-21 10:57:06',
+    title: '多组件组装成一个整体返回',
+    from: '',
+    url: '',
+    desc: '多组件组装成一个整体返回'
   },
 ]
 

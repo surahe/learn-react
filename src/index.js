@@ -18,6 +18,7 @@ import batchUpdate from './page/batchUpdate'
 import Hooks from './page/hooks'
 import Ahooks from './page/ahooks'
 import PromisePending from './page/promisePending';
+import ComponentTypes from './page/componentTypes';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -48,6 +49,7 @@ ReactDOM.render(
             <Route path="/hooks" exact component={Hooks}></Route>
             <Route path="/ahooks" exact component={Ahooks}></Route>
             <Route path="/promise-pending" exact component={PromisePending}></Route>
+            <Route path="/component-types" exact component={ComponentTypes}></Route>
           </div>
         </div>
       </div>
