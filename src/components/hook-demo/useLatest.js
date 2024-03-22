@@ -13,7 +13,7 @@ const UseLatest = () => {
         console.log(`current Count is: ${latestCountRef.current}`);
       }, 1000);
       return () => clearInterval(interval);
-    }, []);
+    }, [latestCountRef]);
 
     function handleClickAsync() {
       setTimeout(function delay() {

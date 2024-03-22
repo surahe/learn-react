@@ -32,7 +32,7 @@ const useCountdown = (options = {}) => {
     } else {
       return targetDate;
     }
-  }, [leftTime, targetDate]);
+  }, [leftTime, targetDate, options]);
 
   const [timeLeft, setTimeLeft] = useState(() => calcLeft(target));
 
@@ -58,7 +58,7 @@ const useCountdown = (options = {}) => {
     }, interval);
 
     return () => clearInterval(timer);
-  }, [target, interval]);
+  }, [target, interval, onEndRef]);
 
   const formattedRes = useMemo(() => parseMs(timeLeft), [timeLeft]);
 

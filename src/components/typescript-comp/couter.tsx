@@ -9,7 +9,6 @@ type Props2<T> = {
     name2?: T
 }
 
-const id: <T>(props: T) => T = arg => arg
 
 const TestC: <T>(props: Props2<T>) => React.ReactElement = ({name, name2}) => {
     return (
