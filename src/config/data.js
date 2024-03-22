@@ -98,6 +98,13 @@ let data = [
     from: '',
     url: '',
     desc: '多组件组装成一个整体返回'
+  }, {
+    name: 'typescript',
+    date: '2024-01-08 19:10:00',
+    title: 'React + TypeScript 实践',
+    from: 'React + TypeScript 实践',
+    url: 'https://zhuanlan.zhihu.com/p/365964861',
+    desc: 'React + TypeScript 实践'
   },
 ]
 
