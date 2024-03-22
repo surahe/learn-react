@@ -1,0 +1,36 @@
+.illumination-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 24px;
+    height: 100vh;
+    gap: 5px;
+    background: black;
+}
+
+.illumination-wrap-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    border-radius: 0.5rem;
+    border: 1px solid #eee;
+    background: #1C1C1F;
+    will-change: transform;
+    transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.illumination-wrap-item-inner {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 9999px;
+    filter: blur(150px);
+}
+
+.hidden {
+    display: none;
+}

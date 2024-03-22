@@ -20,6 +20,7 @@ import Ahooks from './page/ahooks'
 import PromisePending from './page/promisePending';
 import ComponentTypes from './page/componentTypes';
 import Typescript from './page/typescript.tsx';
+import Illumination from './page/illumination.tsx';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -52,6 +53,7 @@ ReactDOM.render(
             <Route path="/promise-pending" exact component={PromisePending}></Route>
             <Route path="/component-types" exact component={ComponentTypes}></Route>
             <Route path="/typescript" exact component={Typescript}></Route>
+            <Route path="/illumination" exact component={Illumination}></Route>
           </div>
         </div>
       </div>

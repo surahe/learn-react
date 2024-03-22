@@ -14,6 +14,7 @@ export const componentTypes = (maps, config) => {
 
     return forwardRef((props, ref) => {
 
+        // eslint-disable-next-line
         const WrapComponent = useMemo(() => maps[props[keyName] || defaultKey], [props[keyName]]);
 
         if (!WrapComponent) {

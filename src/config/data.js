@@ -105,6 +105,13 @@ let data = [
     from: 'React + TypeScript 实践',
     url: 'https://zhuanlan.zhihu.com/p/365964861',
     desc: 'React + TypeScript 实践'
+  }, {
+    name: 'illumination',
+    date: '2024-03-22 12:10:00',
+    title: '手摸手开发一个很 🔥 的卡片效果',
+    from: '手摸手开发一个很 🔥 的卡片效果',
+    url: 'https://juejin.cn/post/7331938596738891788',
+    desc: '手摸手开发一个很 🔥 的卡片效果'
   },
 ]
 
